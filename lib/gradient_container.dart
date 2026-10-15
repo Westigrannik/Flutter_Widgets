@@ -25,7 +25,10 @@ Widget build(BuildContext context) {
              ),
            ),
            child: Center(
-             child: StyledText("Hello World"),
+             child: Image.asset(
+              'assets/images/dice-1.png',
+              width: 300,
+              ),
             ),
             );
              
