@@ -6,7 +6,7 @@ import 'package:flutter_widgets_vovk/gradient_container.dart';
      MaterialApp(
        debugShowCheckedModeBanner: false,
        home: Scaffold(
-         body: GradientContainer(),
+         body: GradientContainer(Colors.white, Colors.blue, Colors.red),
          ),
        ),
      );
