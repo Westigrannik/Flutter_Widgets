@@ -1,17 +1,22 @@
-# flutter_widgets_vovk
+# Лабораторная работа №4-5
+## Вовк Тимофей ИСП-242 16.10.2026
+### Что изучили:
+- Рандомайзер
+- Как вставлять картинки
+- как делать кубик д6
 
-A new Flutter project.
+![Финальное приложение](img\step6_Vovk.png)
 
-## Getting Started
+[Github](https://github.com/Westigrannik/Flutter_Widgets)
 
-This project is a starting point for a Flutter application.
+### Как запустить?
 
-A few resources to get you started if this is your first Flutter project:
+1. Включить Visual Code Studio
+2. Перейти в папку lib и в файл main.dart
+3. Нажать на RUN
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+### Ответы на вопросы
+1. Чтобы код был более читабельным и удобным.
+2. Так скажем указатель для конкретного места для текущего виджета. Для того, чтобы виджет мог взаимодействовать с приложением.
+3. Они применяются для параметров. StatelessWidget - для неизменяемых параметров, а StatefulWidget - для изменяемых
+4. Нужно это для производительности
