@@ -12,6 +12,9 @@ final Color color3;
     this.color2,
     this.color3,{
     super.key});
+
+void rollDice() {}
+
 @override
 Widget build(BuildContext context) {
   return Container(
@@ -25,10 +28,18 @@ Widget build(BuildContext context) {
              ),
            ),
            child: Center(
-             child: Image.asset(
-              'assets/images/dice-1.png',
-              width: 300,
-              ),
+             child: Column(
+               children: [
+                 Image.asset(
+                  'assets/images/dice-1.png',
+                  width: 300,
+                  ),
+                  TextButton(
+                    onPressed: rollDice,
+                     child: Text("Roll Dice"),
+                  ),
+               ],
+             ),
             ),
             );
              
