@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_widgets_vovk/styled_text.dart';
+
 
 const startAlignment = Alignment.topCenter;
 const endAlignment = Alignment.bottomCenter;
